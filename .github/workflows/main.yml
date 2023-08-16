@@ -19,9 +19,8 @@ jobs:
     - name: Build with Maven
       run:
         mvn clean package --file pom.xml
-
     - name: Upload JAR file
-        uses: actions/upload-artifact@v2
-        with:
-          name: text one
-          path: target/*.jar
+      uses: actions/upload-artifact@v2
+      with:
+        name: text one
+        path: target/*.jar
