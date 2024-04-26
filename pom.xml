@@ -6,7 +6,7 @@
 
     <groupId>ltd.rymc</groupId>
     <artifactId>BedrockChestUI</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.5-1.20.4-fix</version>
     <packaging>jar</packaging>
 
     <name>BedrockChestUI</name>
